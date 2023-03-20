@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-
-public class BinarySearchTree<E extends Comparable> extends BinaryTree<E> implements BinarySearchTreeADT<E>
+public class BinarySearchTree<E extends Comparable<E>> extends BinaryTree<E> implements BinarySearchTreeADT<E>
 {
 
     @Override

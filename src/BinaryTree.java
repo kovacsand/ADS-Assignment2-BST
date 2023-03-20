@@ -4,7 +4,6 @@ public class BinaryTree<E> implements BinaryTreeADT<E>
 {
     private BinaryTreeNodeADT<E> root;
 
-
     public BinaryTree()
     {
         root = null;

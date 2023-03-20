@@ -1,4 +1,4 @@
-public interface BinarySearchTreeADT<E extends Comparable> extends BinaryTreeADT<E>
+public interface BinarySearchTreeADT<E extends Comparable<E>> extends BinaryTreeADT<E>
 {
     boolean insert(E element);
     boolean removeElement(E element);
